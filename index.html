@@ -18,8 +18,8 @@
       rel="stylesheet"
     />
 
-    <script type="module" crossorigin src="/business-promotion-vite/assets/main-Dv5OzzUI.js"></script>
-    <link rel="stylesheet" crossorigin href="/business-promotion-vite/assets/main-REzm5NN4.css">
+    <script type="module" crossorigin src="/business-promotion-vite/assets/main-CBsfFvvh.js"></script>
+    <link rel="stylesheet" crossorigin href="/business-promotion-vite/assets/main-CKfLdVlf.css">
   </head>
   <body>
     <header class="header-page">
@@ -49,6 +49,11 @@
           <a class="header-menu-link" href="">Resources</a>
         </li>
       </ul>
+      <button type="button" class="mobile-menu-btn" data-menu-open>
+        <svg class="mobile-menu-btn-icon" width="28" height="31">
+          <use href="/business-promotion-vite/assets/symbol-defs-DllufHBy.svg#icon-menu"></use>
+        </svg>
+      </button>
     </nav>
     <ul class="header-authorization-list">
       <li class="header-authorization-item">
@@ -61,9 +66,49 @@
           Sign Up
         </button>
       </li>
-      <!-- mobile-menu -->
-      <button type="button" class="mobile-menu-btn"></button>
     </ul>
+    <!-- mobile-menu -->
+    <div class="mobile-menu" data-menu>
+      <div class="container mobile-menu-conteiner">
+        <button class="mobile-menu-close" data-menu-close>
+          <svg class="iconbtn" width="20" height="20">
+            <use href="../../img/symbol-defs.svg#icon-close"></use>
+          </svg>
+        </button>
+        <ul class="mobile-menu-list">
+          <li class="mobile-menu-item">
+            <a class="mobile-menu-link semibold" href="./index.html">Product</a>
+          </li>
+          <li class="mobile-menu-item">
+            <a class="mobile-menu-link" href="./customers.html">Customers</a>
+          </li>
+          <li class="mobile-menu-item">
+            <a class="mobile-menu-link" href="./pricing.html">Pricing</a>
+          </li>
+          <li class="mobile-menu-item">
+            <a class="mobile-menu-link" href="">Resources</a>
+          </li>
+        </ul>
+        <ul class="mobile-authorization-list">
+          <li class="mobile-authorization-item">
+            <button
+              class="mobile-authorization-btn mobile-authorization-btn-in"
+              type="button"
+            >
+              Sign In
+            </button>
+          </li>
+          <li class="mobile-authorization-item">
+            <button
+              class="mobile-authorization-btn mobile-authorization-btn-up"
+              type="button"
+            >
+              Sign Up
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
   </div>
 </header>
 
@@ -72,7 +117,7 @@
       <!-- Loads the specified .html file -->
     </main>
 
-    <footer class="footer hidden">
+    <footer class="footer">
   <div class="container footer-container">
     <div class="footer-row">
       <div class="footer-content-social">
@@ -89,21 +134,21 @@
           <li class="footer-social-item">
             <a class="footer-social-link" href="#!">
               <svg class="footer-social-icon" width="24" height="24">
-                <use href="/business-promotion-vite/assets/symbol-defs-DASf_c97.svg#icon-instagram"></use>
+                <use href="/business-promotion-vite/assets/symbol-defs-DllufHBy.svg#icon-instagram"></use>
               </svg>
             </a>
           </li>
           <li class="footer-social-item">
             <a class="footer-social-link" href="#!">
               <svg class="footer-social-icon" width="24" height="24">
-                <use href="/business-promotion-vite/assets/symbol-defs-DASf_c97.svg#icon-facebook"></use>
+                <use href="/business-promotion-vite/assets/symbol-defs-DllufHBy.svg#icon-facebook"></use>
               </svg>
             </a>
           </li>
           <li class="footer-social-item">
             <a class="footer-social-link" href="#!">
               <svg class="footer-social-icon" width="24" height="24">
-                <use href="/business-promotion-vite/assets/symbol-defs-DASf_c97.svg#icon-twitter"></use>
+                <use href="/business-promotion-vite/assets/symbol-defs-DllufHBy.svg#icon-twitter"></use>
               </svg>
             </a>
           </li>
@@ -160,9 +205,7 @@
             placeholder="Enter your phone number"
           />
           <svg class="footer-phone-icon" width="16" height="24">
-            <use
-              href="./images/customer/icons/symbol-defs.svg#icon-mobile-screen"
-            ></use>
+            <use href="/business-promotion-vite/assets/symbol-defs-DllufHBy.svg#icon-mobile-screen"></use>
           </svg>
         </div>
         <button class="footer-input-btn" type="button">Sign up Now</button>
